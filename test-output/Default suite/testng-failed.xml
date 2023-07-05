@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RestAssuredCodes.Check_Valid_Response">
+      <class name="RestAssuredCodes.Quary_Parameter">
         <methods>
-          <include name="getSingleUser"/>
+          <include name="filterData"/>
         </methods>
-      </class> <!-- RestAssuredCodes.Check_Valid_Response -->
+      </class> <!-- RestAssuredCodes.Quary_Parameter -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
